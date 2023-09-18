@@ -15,7 +15,7 @@ namespace UnitTest0
 			int a = 5; 
 			int b = 4;
 			int c = service->Calculate(a, b);
-			Assert::AreEqual(20, c);
+			Assert::AreEqual(20, c); 
 		}
 	};
 }

@@ -12,5 +12,5 @@ class Service : public ISprint1Task0V00
 	virtual int Calculate(int a, int b) override
 	{
 		return a * b;
-	}
+	} 
 };
