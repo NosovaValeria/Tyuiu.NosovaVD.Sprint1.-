@@ -7,7 +7,7 @@ using namespace std;
 int main()
 {
     setlocale(LC_ALL, "RUS");
-    int a, b;
+    int a;
     ISprint1Task1* service1 = new Service1();
     cout << "Nosova Valeria\n";
     cout << "Sprint1.Task1.V4\n";
