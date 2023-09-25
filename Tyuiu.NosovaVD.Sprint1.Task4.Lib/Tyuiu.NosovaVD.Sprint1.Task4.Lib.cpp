@@ -22,7 +22,7 @@ class Service4 : public ISprint1Task4
 		else
 		{
 			y = cos(x);
-		}
+		} 
 		return y;
 	}
 };

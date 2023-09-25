@@ -7,12 +7,24 @@ int main()
 {
     setlocale(LC_ALL, "RUS");
     ISprint1Task4* service = new Service4;
-    float x;
+    float x, y;
     cout << "Nosova Valeria\n";
     cout << "Sprint1.Task4\n";
     cout << "Введите x: ";
     cin >> x;
-    cout << "\nРезультат равен " << service->Vibor(x);
+	if (x > 0 && x != 8)
+	{
+		cout << "\n1-3*x = " << service->Vibor(x) << endl;
+	}
+	else if (x <= 1)
+	{
+		cout << "\nx^2 - sin(x) = " << service->Vibor(x) << endl;
+	}
+	else
+	{
+		cout << "\ncos(x) = " << service->Vibor(x) << endl;
+	}
+ 
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"

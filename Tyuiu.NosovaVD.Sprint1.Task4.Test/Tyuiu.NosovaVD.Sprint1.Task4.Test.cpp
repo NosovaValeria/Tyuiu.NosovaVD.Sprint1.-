@@ -17,5 +17,5 @@ namespace UnitTest4
 			float otvet = -14.0;
 			Assert::AreEqual(otvet, y);
 		}
-	};
+	}; 
 }
